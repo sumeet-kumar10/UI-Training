@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-header{
+    font-size: 28px;
+    width: 100%;
+    background-color: #372063;
+    color:#ffffff;
+    padding: 30px 33px;
+    
+}
+
+header{
+    font-weight: 300;
+}
+
+/* it the main block containes all card  */
+.main-block{  
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.9em;
+    width: 100%;
+    padding: 70px 99px 70px 99px;
+}
+
+main{
+    background-color: #5266af;
+    display: flex;  /* did to adjust the div */
+    width: 500px;
+    height: 105px;
+    
+}
+
+main div{
+    margin-top: 30px;
+}
+
+
+img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: 13px 0 13px 10px;
+}
+
+.name{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 0 20px;
+
+}
+
+.email{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+a:link, a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* this div is for email and name */
+div{
+    display: inline-block;
+    
+}
+
