@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+/* company image */
+.company-logo{
+    width: 16%;
+    margin: -40px auto;
+}
+
+
+/* form section starts */
+form{
+    box-shadow: 0 3px 8px 0 #e4e4e4, 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 550px;
+    background-color: #fff;
+}
+
+form p{
+   margin-bottom: 5px;
+}
+
+.form-heading{
+    color: #001c72;
+    font-size: 20px;
+    padding-top: 40px;
+    margin-left: 35px;
+}
+
+.form-heading p{
+    margin-bottom: 0;
+}
+
+form input{
+    width: 95%;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.first-name p{
+    width: 120%;
+    letter-spacing: -0.4px;
+}
+.last-name p{
+    width: 120%;
+    letter-spacing: -0.4px;
+}
+
+.full-name input{
+    width: 178%;
+}
+
+.full-name p {
+    width: 178%;
+}
+
+.full-name{
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 35px;
+}
+
+.last-name{
+    margin-left: 140px;
+}
+
+.details{
+    margin-left: 35px;
+    font-size: 13px;
+    letter-spacing: -0.4px;
+}
+
+.email{
+    margin-top: 25px;
+}
+
+.contact, .pin{
+    margin-top: 35px;
+}
+
+/* payment details section */
+.payment-details{
+    margin: 70px 0 0 35px;
+    font-size: 20px;
+    color: #001c72;
+}
+
+.card-number{
+    margin: 25px 0 0 35px;
+    font-size: 13px;
+    letter-spacing: -0.4px;
+}
+
+.bank-details{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0 0 35px;
+    font-size: 13px;
+    letter-spacing: -0.4px;
+}
+
+.bank-details input{
+    width: 178%;
+}
+
+.bank-details p{
+    width: 178%;
+
+}
+
+.cvv{
+    margin-left: 140px;
+}
+
+button{
+    color: #fff;
+    background-color: #001c72;
+    padding: 14px 217px;
+    border-width: 0;
+    border-radius: 7px;
+    margin: 30px 0 30px 35px;
+    cursor: pointer;
+    
+}
+/* to remove the scroll-bar  */
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#error-first-name, #error-last-name, #error-email, #error-contact, #error-pin, #error-card-no, #error-card-expiry, #error-cvv{
+    color: #a80001;
+
+}
