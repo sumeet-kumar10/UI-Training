@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <title>Exercise 1</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+        /*IMPORTED ROBOTO FONT*/
+
+        body {
+            margin: 0px;
+        }
+
+        .navbar {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .main-heading {
+            /*styles for template heading*/
+            font-size: xx-large;
+            margin: 10px 10px;
+            padding-bottom: 10px;
+            font-weight: 550;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .heading {
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .sub-heading {
+            font-size: 29px;
+            margin-top: 0px;
+            font-weight: 600;
+        }
+
+        .product-tag {
+            /*styles for product tag*/
+            font-size: 45px;
+            margin-bottom: 10px;
+            font-weight: bolder;
+        }
+
+        .description {
+            /*paragraph under product tag*/
+            line-height: 35px;
+            font-weight: 300;
+            font-size: 25px;
+            margin: 0% 25%;
+        }
+
+        .contact {
+            font-size: 45px;
+            margin: 10px 0px;
+            font-weight: 600;
+
+        }
+
+        .form {
+            /*styles for form at bottom fo page*/
+            width: 400px;
+            height: 60px;
+            display: flex;
+            margin-bottom: 15px;
+            padding-left: 10px;
+
+        }
+
+        h2 a {
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            color: #0760f1;
+        }
+
+        .form-start {
+            margin-left: 38%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p align="center" class="main-heading">SITBACK FURNITURE</p> <!--HEADING OF THE TEMPLATE-->
+    </header>
+    <table cellpadding="0" cellspacing="0" width="100%" height="70"> <!-- HEADER STARTS-->
+        <tr bgcolor="black">
+            <td>
+                <table bgcolor="black" align="center" width="20%" cellspacing="0">
+                    <tr>
+                        <td class="navbar" align="center">COUCHES</td>
+                        <td class="navbar" align="center">CHAIRS</td>
+                        <td class="navbar" align="center">DINING</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table> <!-- HEADER ENDS-->
+    <br>
+
+    <p align="center" class="heading">Your Home, With Love</p>
+    <p align="center" class="sub-heading">Choose from a zillion collections</p>
+
+    <table cellspacing="25" align="center" width="80%"> <!-- IMAGE SECTION-->
+        <tr>
+            <td width="33.33333%"><img src="assets/images/couches.png" alt="Couches" width="100%" height="620"></td>
+            <td width="33.33333%"><img src="assets/images/chairs.png" alt="Chairs" width="100%" height="620"></td>
+            <td width="33.33333%"><img src="assets/images/dining.png" alt="Dining" width="100%" height="620"></td>
+        </tr>
+    </table>
+
+    <div>
+        <p align="center" class="product-tag">Our Products, Our Pride</p> <!--TAGLINE-->
+        <div align="center" class="description">
+            <p class="para">Furniture is a big deal in the design industry. A well-executed concept can result
+                in a timeless piece of furniture that never goes out to style. "Furniture builds up
+                over time - the more the furniture recorder traces of the owner whereabouts
+                and lifestyle, the more it will increase its value for the owners," says Johansen.
+                "The leather's ability to expand is utilized as the owner has the opportunity to
+                influence and shape the product with time."
+            </p>
+        </div>
+    </div>
+
+    <h2 align="center"><a href="https://www.google.com/" target="_blank">Take me to Google</a></h2> <!--GOOGLE LINK-->
+    <div>
+        <p class="contact" align="center">Contact Us</p>
+        <div class="form-start">
+            <form action="" method="POST">
+                <input type="text" placeholder="Your Name" class="form">
+                <input type="text" placeholder="Contact Number" class="form">
+                <input type="email" placeholder="Email Address" class="form">
+                <input type="text" placeholder="Year of Birth" class="form">
+                <select name="" class="form">
+                    <option value="State">State</option>
+                </select>
+            </form>
+        </div>
+
+    </div><!--FOOTER ENDS-->
+
+
+</body>
+
+</html>
