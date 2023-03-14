@@ -1,0 +1,118 @@
+body{
+    margin:0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{                                                                                                        /*styles for heading section*/
+    width: 100%;
+    background-color: #145f94;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 410;
+    padding: 30px 0px;
+    margin-bottom: 18px;
+}
+
+.head{                                                                                                              /*styles for individual box heading*/
+    background-color: #145f94;
+    color: white;
+}
+
+.content{
+    background-color: #f6f6f6;
+}
+
+h2{
+    margin: 0;
+    padding: 12px 20px;
+}
+
+p{                                                                                                      /*styles for individual box container*/
+    margin: 0;
+    padding: 22px 28px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.box-first{
+    height: max-content;
+    margin:20px 0px 0px 0px;
+}
+
+.box-second{
+    max-height: max-content;
+    margin: 20px 0px;
+}
+
+.main{
+    margin:0 6%;
+    display: inline-block;
+
+}
+
+.box-first, .box-second{
+    border: 1px solid #145f94;
+}
+
+.col-left{                                                                                          /* used to align column left*/
+    margin-left: 10px;
+    overflow: auto;
+    width: 58%;
+    float: left;
+}
+
+
+.col-right{                                                                                         /* used to align column right*/
+    float:right;
+    width:40%;
+    overflow: auto;
+}
+
+#box-star-network{
+    margin-top: 25px;
+}
+
+#box-heading{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 28px;
+}
+
+@media screen and (max-width: 600px ){                                                                          /* media screen for mobile*/
+    .col-left{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .col-right{
+        float: left;
+        width: 100%;
+    }
+    
+}
+
+@media screen and ( max-width: 768px ){                                                                         /* media screen for tablet*/
+    .col-left{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .col-right{
+        float: left;
+        width: 100%;
+    }
+    
+}
+
+@media screen and ( max-width: 992px ){                                                                         /*media screen for desktop*/
+    .col-left{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .col-right{
+        float: left;
+        width: 100%;
+    }
+    
+}
