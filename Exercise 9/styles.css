@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    position: relative;
+    animation: example 4s infinite;
+    margin: 10%;
+}
+  
+@keyframes example {
+    0%   {background-color: #ff0000; left:0px; top:0px;}
+    25%  {background-color: #000000; left:200px; top:0px; scale: 2;}
+    50%  {background-color: #0000ff; left:200px; top:200px; scale: none;}
+    75%  {background-color: #00ff00; left:0px; top:200px;}
+    100% {background-color:#ff0000; left:0px; top:0px;}
+}
